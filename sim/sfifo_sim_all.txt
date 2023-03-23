@@ -1,0 +1,4 @@
+/home/kali/GOALS/fifo/sim/sfifo_rw_tst.v
+/home/kali/GOALS/fifo/sim/sfifo.v
+/home/kali/GOALS/fifo/sim/sfifo_sim.v
+

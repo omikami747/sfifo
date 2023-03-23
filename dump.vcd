@@ -1,0 +1,245 @@
+$date
+	Mon Mar 13 10:19:59 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module sfifo_tb $end
+$var wire 1 ! tstudfl $end
+$var wire 1 " tstovfl $end
+$var wire 1 # tstfull $end
+$var wire 1 $ tstempty $end
+$var wire 16 % tstdout [15:0] $end
+$var reg 1 & tstclk $end
+$var reg 16 ' tstdin [15:0] $end
+$var reg 1 ( tstrd $end
+$var reg 1 ) tstrst $end
+$var reg 1 * tstwr $end
+$scope module dut $end
+$var wire 1 & clk $end
+$var wire 16 + din [15:0] $end
+$var wire 1 ( rd $end
+$var wire 1 ) rst $end
+$var wire 1 * wr $end
+$var reg 16 , dout [15:0] $end
+$var reg 1 $ empty $end
+$var reg 1 # full $end
+$var reg 1 " ovfl $end
+$var reg 1 - rd_cycle $end
+$var reg 6 . rd_ptr [5:0] $end
+$var reg 1 ! udfl $end
+$var reg 1 / wr_cycle $end
+$var reg 6 0 wr_ptr [5:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 0
+0/
+b0 .
+0-
+bx ,
+bx +
+x*
+0)
+x(
+bx '
+0&
+bx %
+1$
+0#
+0"
+0!
+$end
+#5
+1&
+#10
+0&
+#15
+b0 '
+b0 +
+1*
+1)
+1&
+#20
+0&
+#25
+0$
+0!
+b1 0
+1(
+0*
+1&
+#30
+0&
+#35
+1$
+b1 .
+b0 %
+b0 ,
+0(
+1&
+#40
+0&
+#45
+1&
+#50
+0&
+#55
+1&
+#60
+0&
+#65
+1&
+#70
+0&
+#75
+1&
+#80
+0&
+#85
+1&
+#90
+0&
+#95
+1&
+#100
+0&
+#105
+1&
+#110
+0&
+#115
+1&
+#120
+0&
+#125
+1&
+#130
+0&
+#135
+1&
+#140
+0&
+#145
+1&
+#150
+0&
+#155
+1&
+#160
+0&
+#165
+1&
+#170
+0&
+#175
+1&
+#180
+0&
+#185
+1&
+#190
+0&
+#195
+1&
+#200
+0&
+#205
+1&
+#210
+0&
+#215
+1&
+#220
+0&
+#225
+1&
+#230
+0&
+#235
+1&
+#240
+0&
+#245
+1&
+#250
+0&
+#255
+1&
+#260
+0&
+#265
+1&
+#270
+0&
+#275
+1&
+#280
+0&
+#285
+1&
+#290
+0&
+#295
+1&
+#300
+0&
+#305
+1&
+#310
+0&
+#315
+1&
+#320
+0&
+#325
+1&
+#330
+0&
+#335
+1&
+#340
+0&
+#345
+1&
+#350
+0&
+#355
+1&
+#360
+0&
+#365
+1&
+#370
+0&
+#375
+1&
+#380
+0&
+#385
+1&
+#390
+0&
+#395
+1&
+#400
+0&
+#405
+1&
+#410
+0&
+#415
+1&
+#420
+0&
+#425
+1&
+#430
+0&
+#435
+1&
